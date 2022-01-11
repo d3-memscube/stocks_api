@@ -1,0 +1,25 @@
+{
+  "name": "stocks_api",
+  "version": "1.0.0",
+  "description": "An api of a Stock market",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon ./server.js localhost 5000",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "NSE",
+    "BSE"
+  ],
+  "author": "souvik saha",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.24.0",
+    "body-parser": "^1.19.1",
+    "cors": "^2.8.5",
+    "express": "^4.17.2",
+    "nodemon": "^2.0.15",
+    "xml2js": "^0.4.23",
+    "xmldoc": "^1.1.2"
+  }
+}
